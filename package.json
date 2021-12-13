@@ -11,9 +11,6 @@
     "stop": "forever stopall",
     "st": "nodemon server.js"
   },
-  "engines": {
-    "node": "11.x"
-    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TomSG03/ahj-http-helpdesk-backend.git"
@@ -30,5 +27,8 @@
     "koa-body": "^4.2.0",
     "koa-router": "^10.1.1",
     "koa2-cors": "^2.0.6"
-  }
+  },
+  "engines": {
+    "node": "11.x"
+    }
 }
