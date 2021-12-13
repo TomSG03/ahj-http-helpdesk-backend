@@ -55,26 +55,26 @@ module.exports =  class Tickets {
         name: 'Поменять краску в принтере',
         description: 'Кабинет 404. Справа за углом',
         status: false,
-        created: 0,
+        created: '2012-11-13T01:18:10.592Z',
       },
       {
         id: 0,
         name: 'Переустановить Windows',
         description: 'Была замена диска.',
         status: true,
-        created: 0,
+        created: '2020-12-25T10:15:30.592Z',
       },
       {
         id: 0,
         name: 'Установить обновление',
         description: 'Или удалить. Не печатает принтер',
         status: false,
-        created: 0,
+        created: '2021-12-30T12:10:00.592Z',
       },
     ]
 
     for (let i = 0; i < example.length; i += 1) {
-      example[i].created = new Date();
+      // example[i].created = new Date();
       example[i].id = this.id;
       this.tickets.push(example[i]);
       this.id += 1;
