@@ -11,16 +11,8 @@
     "stop": "forever stopall",
     "st": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomSG03/ahj-http-helpdesk-backend.git"
-  },
   "author": "Tomilov Sergey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TomSG03/ahj-http-helpdesk-backend/issues"
-  },
-  "homepage": "https://github.com/TomSG03/ahj-http-helpdesk-backend#readme",
   "dependencies": {
     "forever": "^4.0.1",
     "koa": "^2.13.4",
