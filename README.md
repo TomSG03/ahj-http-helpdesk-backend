@@ -1,3 +1,3 @@
 ## ahj-http-helpdesk-backend
 
-## [Heroku](https://netology-ahj-http-heroku.herokuapp.com/)
+##  Heroku - https://netology-ahj-http-heroku.herokuapp.com/ahj-hdesk/
