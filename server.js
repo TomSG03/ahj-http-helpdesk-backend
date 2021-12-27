@@ -1,13 +1,18 @@
 const http = require('http');
-const Koa = require('koa');
 const koaBody = require('koa-body');
 const cors = require('koa2-cors');
-const Tickets = require('./src/hdesk-ticket');
-const Router = require('koa-router');
 
-const app = new Koa();
+const Tickets = require('./src/hdesk-ticket');
 const tickets = new Tickets();
+
+const Polling = require('./src/polling');
+const polling = new Polling();
+
+const Router = require('koa-router');
 const router = new Router();
+
+const Koa = require('koa');
+const app = new Koa();
 
 app.use(
   cors({
@@ -37,6 +42,10 @@ router.get('/ahj-hdesk/tickets', async (ctx) => {
       ctx.response.status = 404;
       break;
   }
+});
+
+router.get('/ahj-rxjs/messages/unread', async (ctx) => {
+  ctx.response.body = polling.allUnRead();
 });
 
 router.post('/ahj-hdesk/tickets', async (ctx) => {
