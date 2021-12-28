@@ -1,8 +1,8 @@
 ## ahj-http-helpdesk-backend
 
-Heroku - https://netology-ahj-http-heroku.herokuapp.com/ahj-hdesk/
-
-Сервер для задач: http-helpdesk, rxjs-polling
+Heroku cервер для задач: 
+  http-helpdesk - https://netology-ahj-http-heroku.herokuapp.com/ahj-hdesk/
+  rxjs-polling - https://netology-ahj-http-heroku.herokuapp.com/ahj-rxjs/messages/unread
 
 ---
 [Спискок задач](https://github.com/TomSG03/ahs-homeworks-list)
