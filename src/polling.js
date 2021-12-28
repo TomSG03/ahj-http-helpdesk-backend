@@ -11,7 +11,7 @@ module.exports =  class Polling {
 
   allUnRead() {
     this.unRead.messages = [];
-    const count = this.getRandomInRange(2, 5);
+    const count = this.getRandomInRange(1, 3);
     for (let i = 0; i < count; i += 1) {
       this.unRead.messages.push({
         id: faker.datatype.uuid(),
@@ -25,6 +25,6 @@ module.exports =  class Polling {
   }
 
   getRandomInRange(min, max) {
-    return Math.floor(Math.randomgit () * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 }
