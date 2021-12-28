@@ -1,4 +1,4 @@
-## ahj-http-helpdesk-backend
+## Heroku ahj-backend
 
 Heroku cервер для задач: 
   - http-helpdesk - https://netology-ahj-http-heroku.herokuapp.com/ahj-hdesk/
