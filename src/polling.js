@@ -21,11 +21,10 @@ module.exports =  class Polling {
         received: faker.datatype.datetime(),
       })
     }
-    console.log('Send data');
     return JSON.stringify(this.unRead);
   }
 
   getRandomInRange(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.randomgit () * (max - min + 1)) + min;
   }
 }
